@@ -4,7 +4,7 @@
   <img src="./screenshot.png" alt="UI Screenshot" width="800"/>
 </div>
 
-An advanced Retrieval-Augmented Generation (RAG) web application with a sleek, premium dark-mode interface. This ecosystem is designed to ingest PDF documents, intelligently index both textual and visual elements (tables/images), and provide highly accurate answers using a hybrid retrieval mechanism (Dense Vectors + Sparse Keyword Matching).
+An advanced Retrieval-Augmented Generation (RAG) web application designed to ingest PDF documents, intelligently index both textual and visual elements (tables/images), and provide highly accurate answers using a hybrid retrieval mechanism (Dense Vectors + Sparse Keyword Matching).
 
 ## Features
 
