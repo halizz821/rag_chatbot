@@ -1,0 +1,32 @@
+:root {
+  --bg-color: #101010;
+  --text-color: #f0f0f0;
+  --accent-color: #10b981; /* Emerald/Mint green for Anti Gravity feel */
+  --accent-color-hover: #059669;
+  --card-bg: rgba(255, 255, 255, 0.03);
+  --border-color: rgba(255, 255, 255, 0.1);
+  --surface: #0a0a0a;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+  /* Ambient Halo Glow */
+  background-image: radial-gradient(circle at 50% 20%, rgba(200, 200, 200, 0.08) 0%, transparent 70%);
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
