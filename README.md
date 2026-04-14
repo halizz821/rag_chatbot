@@ -8,7 +8,6 @@ An advanced Retrieval-Augmented Generation (RAG) web application designed to ing
 
 ## Features
 
-- ✨ **Premium Aesthetic UI**: Built with Next.js, featuring a clean, responsive two-column layout with ambient glowing backgrounds and a live telemetry sidebar.
 - ⚙️ **Real-time Ingestion Telemetry**: Watch the document ingestion process step-by-step (Partitioning, Chunking, Summarizing, Indexing) via Server-Sent Events (SSE).
 - 🧠 **AI-Enhanced Chunking**: Automatically processes mixed media. Tables and images extracted from PDFs are passed through vision models to create highly searchable abstractive text summaries alongside the raw text.
 - 🔍 **Hybrid Retrieval**: Combines state-of-the-art dense semantic search (Chroma + OpenAI Embeddings) and sparse lexical matching (BM25Okapi) using LangChain's EnsembleRetriever (70/30 weighting ratio).
